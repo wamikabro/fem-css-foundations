@@ -79,9 +79,41 @@ main {
   padding: 150px;
 }
 
-@media (width < 1000px) {
+/*Mobile Menu*/
+.menu {
+  display: none;
+}
+
+.menu path {
+  fill: var(--primary-text-color);
+}
+
+@media (width < 840px) {
+  .menu {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  .header__link {
+    font-size: 30px;
+  }
+
   .button {
-    padding: 0 40px;
-    height: 70px;
+    padding: 0 20px;
+    height: 60px;
+    font-size: 25px;
+  }
+
+  main {
+    padding: 100px;
   }
 }
