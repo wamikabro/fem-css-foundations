@@ -1,1 +1,10 @@
 @import "./base.css";
+
+body {
+  background-color: var(--primary-text-color);
+  color: var(--primary-color);
+}
+
+.shopping-cart-icon g path {
+  fill: var(--primary-color);
+}
