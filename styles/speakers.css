@@ -8,3 +8,46 @@ body {
 .shopping-cart-icon g path {
   fill: var(--primary-color);
 }
+
+.main__title {
+  font-size: 98px;
+}
+
+/*Speakers*/
+.speaker__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 120px;
+}
+
+.speaker__wrapper {
+  width: 300px;
+}
+
+.speaker__image {
+  width: 310px;
+  height: 350px;
+  object-fit: cover;
+  object-position: top;
+  margin-bottom: 36px;
+}
+
+.speaker__name {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.speaker__company {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.speaker__bio {
+  font-size: 20px;
+}
+
+.speaker__company,
+.speaker__bio {
+  color: var(--secondary-text-color);
+}

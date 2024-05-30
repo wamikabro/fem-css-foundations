@@ -1,6 +1,7 @@
 :root {
   --primary-color: #ff7b54;
   --primary-text-color: #ffffff;
+  --secondary-text-color: #000000;
   --button-border-color: var(--primary-text-color);
   --primary-button-background-color: var(--primary-text-color);
   --primary-button-text-color: var(--primary-color);
@@ -19,7 +20,8 @@ body {
   padding: 0;
 }
 
-p {
+p,
+h2 {
   margin: 0px;
 }
 
@@ -70,4 +72,9 @@ a {
 .button:focus {
   outline: 2px solid var(--primary-text-color);
   transition: outline 0.1s linear;
+}
+
+/*Main*/
+main {
+  padding: 150px;
 }
