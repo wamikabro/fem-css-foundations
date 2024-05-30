@@ -110,6 +110,10 @@ main {
     transition: left 0.2s linear;
   }
 
+  .no-scroll {
+    overflow: hidden;
+  }
+
   .nav__list {
     flex-direction: column;
     justify-content: space-around;
